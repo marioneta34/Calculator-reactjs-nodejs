@@ -1,0 +1,97 @@
+body {
+  margin: 10px;
+  background-color: #A1D5EA;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.TituloHeader{
+  font-weight: 600;
+  font-size: 25px;
+  color: #c4c4c4;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+.centrar {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-color: #2f2f2f;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Boton {
+  cursor: pointer;
+  background-color: #c4c4c4;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.PantallaInput{
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  font-size: 20px;
+  justify-content: flex-end;
+  height: 120px;
+  align-items: center;
+  background-color: #Fafafa;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.Borrar{
+  cursor: pointer;
+  background-color: #F9604B;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+#operadores {
+  background-color: #FFA326;
+}
+
+.Historial{
+  cursor: pointer;
+  background-color: #73A7FF;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.fonthistorial{
+  width: 300px;
+  font-weight: 200;
+  font-size: 20px;
+  color: #000;
+  background-color:#c4c4c4;
+  margin-top: 5px;
+  margin-right: 10px;
+  align-items: flex-start;
+  border-radius: 5px;
+}
